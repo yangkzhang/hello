@@ -1,0 +1,118 @@
+body{
+			margin:0;
+			padding:0;
+		}
+		#container{
+			margin:0 auto;
+			width:70%;
+			padding:15px;
+			float:left;
+		}
+		#myfriend-container{
+			margin:0 auto;
+			width:70%;
+			padding:15px;
+			float:left;
+			display:none;
+		}
+		.submitCon{
+			padding:15px 0;
+			position:relative;
+		}
+		.subContent{
+			width:100%;
+			box-sizing: border-box;
+			min-height:100px;
+			padding:15px;
+			margin-bottom:10px;
+			resize:none;
+		}
+		.btn{
+			display:block;
+			float:right;
+			margin:0 10px;
+		}
+		.msg{
+			padding:15px;
+			margin:15px 0;
+			border:1px solid #ccc;
+			display:none;
+		}
+		.msg-head{
+			overflow:hidden;
+		}
+		.guanzhu{
+			float:right;
+		}
+		.yiguanzhu{
+			float:right;
+		}
+		.name{
+			float:left;
+		}
+		.msg-foot{
+			overflow:hidden;
+		}
+		.msg-foot button{
+			float:right;
+		}
+		.commentCon{
+			border:1px solid #ccc;
+			padding:15px;
+			display:none;
+			overflow:hidden;
+		}
+		.commentContent{
+			width:100%;
+			min-height:100px;
+			resize:none;
+		}
+		.submit-comment{
+			float:right;
+		}
+		#sinaEmotion{
+			position:absolute;
+		}
+		.commentList{
+			width:calc(100% - 15px);
+			margin-left:15px;
+		}
+		.commentItem{
+			padding:15px;
+			border:1px solid #ccc;
+			margin:15px 0;
+		}
+		.login-window{
+			position:fixed;
+			width:400px;
+			height:200px;
+			padding:15px;
+			left:45%;
+			margin:100px auto;
+			background: #fff;
+			z-index: 10;
+			display:none;
+			text-align:center;
+		}
+		.mask{
+			position:fixed;
+			display:none;
+			width:100%;
+			height:100%;
+			background: rgba(0,0,0,.6);
+			z-index:5;
+		}
+		#myfriend{
+			float:right;
+			min-height:100px;
+			background:#ccc;
+			margin-top:50px;
+			width:25%;
+		}
+		#alltalk,#friendtalk,#login-btn{
+			float:left;
+			display:inline-block;
+			text-decoration:underline;
+			margin-left:10px;
+			cursor:pointer;
+		}

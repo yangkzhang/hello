@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>留言板</title>
+	<link rel="stylesheet" type="text/css" href="jquery.sinaEmotion.css">
+</head>
+<body>
+	<div class="login-window">
+		<label for="username">用户名</label>
+		<input type="text" id="username">
+		<br/>
+		<br/>
+		<label for="password">密码</label>
+		<input type="password" id="password">
+		<br/>
+		<br/>
+		<button id="login-submit">提交</button>
+	</div>
+	<div class="mask"></div>
+	<a id="alltalk">所有说说</a>
+	<a id="friendtalk">好友说说</a>
+	<a id="login-btn" href="javascript:$('.login-window').toggle();$('.mask').toggle();">登录</a>
+	<br>
+	<div id="container">
+		
+		<div id="sinaEmotion"></div>
+		<div class="submitCon">
+			<textarea class="subContent"></textarea>
+			<button class="btn submit">提交</button>
+			<button class="btn face">表情</button>
+		</div>
+		<div class="msg">
+				<p class="msg-head">
+					<a class="name"></a>
+					<a href="javascript:;" class="guanzhu">关注</a>
+				</p>
+				<div class="msg-body">
+				</div>
+				<div class="commentList"></div>
+				<p class="msg-foot">
+					<button>评论</button>
+				</p>
+				
+				<div class='commentCon'>
+					<textarea class='commentContent'></textarea>
+					<button class='btn submit-comment'>提交</button>
+					<button class='btn face'>表情</button>
+				</div>
+			</div>
+		<div id="msgContainer"></div>	
+	</div>
+	<div id="myfriend-container">
+		<div id="sinaEmotion"></div>
+		<div class="submitCon">
+			<textarea class="subContent"></textarea>
+			<button class="btn submit">提交</button>
+			<button class="btn face">表情</button>
+		</div>
+		<div class="msg">
+				<p class="msg-head">
+					<a class="name"></a>
+					<a href="javascript:;" class="yiguanzhu">已关注</a>
+				</p>
+				<div class="msg-body">
+				</div>
+				<div class="commentList"></div>
+				<p class="msg-foot">
+					<button>评论</button>
+				</p>
+				
+				<div class='commentCon'>
+					<textarea class='commentContent'></textarea>
+					<button class='btn submit-comment'>提交</button>
+					<button class='btn face'>表情</button>
+				</div>
+			</div>
+		<div id="msgContainer2"></div>	
+	</div>
+	<div id="myfriend">
+		<ul></ul>
+	</div>
+	<div id="result"></div>
+
+	<script src="jquery.min.js"></script>
+	<script src="jquery.sinaEmotion.js"></script>
+	<script src="index.js"></script>
+	<script>
+		
+	
+	</script>
+</body>
+</html>
